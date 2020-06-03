@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ncert9thenglishbookssolutions">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SolFoundationOIT"></activity>
+        <activity android:name=".Solutions.SolSanskrit" />
+        <activity android:name=".Solutions.SolSprash" />
+        <activity android:name=".Solutions.SolMainCourse" />
+        <activity android:name=".Solutions.LiteratureReader" />
+        <activity android:name=".Solutions.SolBeehive" />
+        <activity android:name=".Solutions.SolMoments" />
+        <activity android:name=".Solutions.SolKritika" />
+        <activity android:name=".Solutions.SolKshitiz" />
+        <activity android:name=".Solutions.SolHindi" />
+        <activity android:name=".Solutions.SolSocialScience" />
+        <activity android:name=".Solutions.SolScience" />
+        <activity android:name=".Solutions.SolMath" />
+        <activity android:name=".books.ShesumiPrathamoBhagh" />
+        <activity android:name=".books.WyakaranWithi" />
+        <activity android:name=".books.AbhyasanBhavah" />
+        <activity android:name=".books.Sprash" />
+        <activity android:name=".books.Sanchyan" />
+        <activity android:name=".books.Khitiz" />
+        <activity android:name=".books.Kritika" />
+        <activity android:name=".books.MathLabManual" />
+        <activity android:name=".books.ScienceLabManual" />
+        <activity android:name=".books.HelthAndPhysicalEducation" />
+        <activity android:name=".books.WordsAndExpressions" />
+        <activity android:name=".books.Moments" />
+        <activity android:name=".books.BeehiveEnglish" />
+        <activity android:name=".books.IndiaAndContempraryWorld1" />
+        <activity android:name=".books.DemocreticPoltics" />
+        <activity android:name=".books.ContemproaryIndia" />
+        <activity android:name=".books.Economics" />
+        <activity android:name=".books.Science" />
+        <activity android:name=".books.Math" />
+        <activity android:name=".DownloadActivity" />
+        <activity android:name=".Solutions" />
+        <activity android:name=".Books" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

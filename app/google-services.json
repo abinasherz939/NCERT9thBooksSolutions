@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "550788133430",
+    "firebase_url": "https://ncert-books-and-solution-f7deb.firebaseio.com",
+    "project_id": "ncert-books-and-solution-f7deb",
+    "storage_bucket": "ncert-books-and-solution-f7deb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550788133430:android:920375f46f420809e31e97",
+        "android_client_info": {
+          "package_name": "com.example.ncert9thenglishbookssolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550788133430-8fcetu32blv4rhr7n9790agu1mkstjlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ-6EkoYIdadt0trcrqsCksTpvATciFzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550788133430-8fcetu32blv4rhr7n9790agu1mkstjlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550788133430:android:8a3ff1398a955093e31e97",
+        "android_client_info": {
+          "package_name": "com.example.ncertbooksandncertsolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550788133430-8fcetu32blv4rhr7n9790agu1mkstjlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ-6EkoYIdadt0trcrqsCksTpvATciFzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550788133430-8fcetu32blv4rhr7n9790agu1mkstjlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550788133430:android:ddeaa591e8e05d32e31e97",
+        "android_client_info": {
+          "package_name": "com.example.serverside_ncert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550788133430-8fcetu32blv4rhr7n9790agu1mkstjlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ-6EkoYIdadt0trcrqsCksTpvATciFzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550788133430-8fcetu32blv4rhr7n9790agu1mkstjlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Books">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.captain_miao.optroundcardview.OptRoundCardView
+        android:id="@+id/optRoundCardView"
+        android:layout_width="match_parent"
+        app:optRoundCardBackgroundColor="@color/test1"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        app:optRoundCardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:optRoundCardCornerRadius="70dp"
+        app:optRoundCardLeftBottomCorner="false"
+        app:optRoundCardLeftTopCorner="true"
+        app:optRoundCardRightBottomCorner="false"
+        app:optRoundCardRightTopCorner="true">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+
+                <LinearLayout
+                    android:id="@+id/math"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="1.Mathematics"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sci"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="2.Science"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/contem"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="3.Economics"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+                <LinearLayout
+                    android:id="@+id/ued"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=" 4.Contemprary India"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/icw"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=" 5.Democretic Politics"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="6.India and Contemprary World"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+                <LinearLayout
+                    android:id="@+id/fwf"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="7.Beehive English"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ff"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="8.Moments Supplimentary Reader"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/slm"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="9.Words And Expression"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+                <LinearLayout
+                    android:id="@+id/mlm"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:text="10.Health and Physical Education"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/krt"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="11.Science Lab Manual"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/chhitij"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="12.Mathmatics Lab Manual"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+                <LinearLayout
+                    android:id="@+id/san"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="13.कृतिका"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sparsh"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="14.क्षितिज"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/gram"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="15.संचयन"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+                <LinearLayout
+                    android:id="@+id/shem"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="16.स्पर्श"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+
+
+                <LinearLayout
+                    android:id="@+id/trdlast"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="17.Abhyasan bhawah"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ndlast"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text=" 18. व्याकरंवीथिः(संस्कृत)"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/last"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#FF5722"
+                    android:elevation="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:text="19. शेमुषी - 1"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#00FF0303"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

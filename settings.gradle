@@ -1,0 +1,2 @@
+rootProject.name='NCERT 9th (English) Books & Solutions'
+include ':app'
